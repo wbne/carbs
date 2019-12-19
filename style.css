@@ -4,7 +4,7 @@ header {
 
 body {
 	font-size: 17px;
-	font-family: 'Arial';
+	font-family: 'Helvetica';
 }
 
 h1 {
@@ -65,4 +65,17 @@ table, th, td {
 .infotext {
 	font-size: 10px;
 	text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .side {
+	display: none !important;
+  }
+  .main {
+  	padding: 1px;
+	width: 90%;
+  }
+  .content {
+  	padding-left: 2em;
+  }
 }
