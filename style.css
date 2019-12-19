@@ -1,0 +1,68 @@
+header {
+
+}
+
+body {
+	font-size: 17px;
+	font-family: 'Arial';
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Handlee', 'cursive';
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 3px dotted orange;
+}
+
+img {
+	display: block;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+.main {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+.side {
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	font-family: 'Handlee', 'cursive';
+	background-color: white;
+	margin-left: -8px;
+	margin-top: -27px;
+	border-right: 5px dotted orange;
+}
+
+.content {
+	padding-left: 4em;
+}
+.chapter {
+	text-align: left;
+}
+
+.title {
+	text-align: center;
+	border-bottom: 5px dotted orange;
+}
+
+.infotext {
+	font-size: 10px;
+	text-align: center;
+}
